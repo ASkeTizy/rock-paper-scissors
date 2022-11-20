@@ -1,1 +1,1 @@
-[a relative link](index.html)
+https://ASkeTizy.github.io/rock-paper-scissors/
