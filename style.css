@@ -1,0 +1,58 @@
+.buttons {
+	display: flex;
+	gap: 50px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	background-color: black;
+}
+p { 
+	color: white;
+
+}
+#rock {
+	background-image: url("./images/rock.png");
+}
+
+#paper {
+	
+	background-image: url("./images/paper.png");
+}
+
+#scissors {
+	
+	background-image: url("./images/scissors.png");
+}
+
+.button {
+	border-radius: 15px;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-color: blue;
+}
+.button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 0 0 20px 1px;
+
+}
+.titles {
+	margin-top: 40px;
+	display: flex;
+	gap: 40px;
+}
+.counters {
+	display: flex;
+	gap: 100px;
+}
+p {
+font-size: 24px;
+
+}
